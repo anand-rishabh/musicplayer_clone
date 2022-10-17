@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    background-color: rgb(233, 157, 107)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+    /* flex-direction: column; */
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+.logo img{
+    width: 70px;
+    padding: 0 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    margin: 25px auto;
+    width: 75%;
+    border-radius: 12px;
+    padding: 40px;
+    /* background-image: url('bg.jpg'); */
+    background-image: url('background1.jpg') ;
+}
+
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    font-family: 'Bangers', cursive;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.SongItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.SongContainer{
+    margin-top: 55px;
+}
+
+.Bottom{
+    position: sticky;
+    height: 120px;
+    background-color: rgb(67, 71, 71);
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#ProgressBar{
+    width: 75vw;
+    cursor: pointer;
+}
+.GIF{
+    position: absolute;
+    left: 12vw;
+    font-family: 'Comfortaa', cursive;  
+
+}
+
+.GIF img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
